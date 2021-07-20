@@ -1,0 +1,61 @@
+.main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    box-shadow: 0 0 0.5vw;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   margin: 0.2vw;
+}
+.stardata{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.loader{
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #0088a9;
+        width: 5vw;
+        height: 5vw;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+        margin-top: 50vh;
+      }
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+.load{
+  margin-top: 60vh;
+}
+p{
+    margin-top: 10vh;
+    padding-right: 30px;
+}
